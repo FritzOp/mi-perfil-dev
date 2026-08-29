@@ -8,23 +8,25 @@ export default function App() {
     <ScrollView contentContainerStyle={styles.container}>
       {/* Avatar o Foto */}
       <Image
-        source={{ uri: 'https://via.placeholder.com/150' }}
+        source={{ uri: 'https://i.pinimg.com/736x/1e/35/71/1e35711ac298f19836b8c08ad80b42d8.jpg' }}
         style={styles.avatar}
       />
 
       {/* Nombre, Rol y Biografía */}
-      <Text style={styles.name}>Futuro Ingeniero</Text>
+      <Text style={styles.name}>Edgar Zuñiga</Text>
       <Text style={styles.role}>Estudiante de Ingeniería / Developer</Text>
       <Text style={styles.bio}>
-        Apasionado por la tecnología, el desarrollo de software y los ecosistemas móviles modernos.
+        Apasionado por la tecnología, el desarrollo de software y la ciberseguridad.
       </Text>
 
       {/* Habilidades / Tecnologías favoritas */}
       <View style={styles.skillsContainer}>
         <Text style={styles.skillsTitle}>Tecnologías Favoritas:</Text>
-        <Text style={styles.skillBadge}>💻 React Native & Expo</Text>
-        <Text style={styles.skillBadge}>⚡ TypeScript</Text>
+        <Text style={styles.skillBadge}>💻 Python</Text>
+        <Text style={styles.skillBadge}>⚡ C/C++, Java</Text>
         <Text style={styles.skillBadge}>🛠️ Git & GitHub</Text>
+        <Text style={styles.skillBadge}> 💻 Windows, Linux </Text>
+        <Text style={styles.skillBadge}> 🖲 Redes, Virtualización, Ciberseguridad </Text>
       </View>
 
       {/* Contador de Likes interactivo */}
@@ -106,7 +108,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   button: {
-    backgroundColor: '#E74C3C',
+    backgroundColor: '#8aa2b9ff',
     paddingVertical: 12,
     paddingHorizontal: 25,
     borderRadius: 25,
